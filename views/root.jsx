@@ -6,6 +6,9 @@ module.exports = ({ title, children }) => (
       <title>{title}</title>
       <link rel="stylesheet" href="/stylesheets/style.css" />
     </head>
-    <body>{children}</body>
+    <body>
+      {children}
+      <script src="/javascripts/main.js"></script>
+    </body>
   </html>
 )
